@@ -127,7 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Console_Casino_Games.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Slots.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Slots.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
